@@ -1,38 +1,14 @@
-# Smart Calculator – Project Statement
+# SMART CALCULATOR
 
-## Problem Statement
+## Project Overview
 
-Performing different mathematical calculations and unit conversions separately can take time and may lead to calculation errors.
+Smart Calculator is a Python-based console application developed as a VITyarthi project.
 
-The aim of this project is to develop a simple Smart Calculator using Python that can perform basic mathematical operations, scientific calculations, unit conversions, and temperature conversions in one program.
+The main purpose of this project is to provide different mathematical calculations and unit conversions in one simple and easy-to-use program.
 
-The calculator accepts input from the user, performs the selected operation, and displays the result.
+The calculator uses a menu-driven interface where the user selects the required operation, enters the values, and gets the result.
 
-## Scope of the Project
-
-The Smart Calculator provides the following functions:
-
-- Basic mathematical calculations
-- Scientific calculations
-- Unit conversions
-- Temperature conversions
-- Input validation
-- Error handling
-
-The project is developed as a console-based Python application with a simple menu-driven interface.
-
-The current project does not use a database or permanent data storage.
-
-## Target Users
-
-The target users of this project are:
-
-- Students
-- Beginners learning Python
-- Users who need simple mathematical calculations
-- Users who need basic unit and temperature conversions
-
-## High-Level Features
+## Features
 
 ### 1. Basic Calculator
 - Addition
@@ -45,16 +21,17 @@ The target users of this project are:
 - Square
 - Cube
 - Power
-- Square root
+- Square Root
 - Factorial
+- Validation for invalid inputs
 
 ### 3. Unit Converter
-- Kilometre to metre
-- Metre to kilometre
-- Kilogram to gram
-- Gram to kilogram
-- Litre to millilitre
-- Millilitre to litre
+- Kilometre to Metre
+- Metre to Kilometre
+- Kilogram to Gram
+- Gram to Kilogram
+- Litre to Millilitre
+- Millilitre to Litre
 
 ### 4. Temperature Converter
 - Celsius to Fahrenheit
@@ -67,4 +44,51 @@ The target users of this project are:
 ### 5. Error Handling
 - Handles invalid numerical input
 - Prevents division by zero
-- Validates invalid inputs for scientific calculations
+- Checks invalid inputs for square root and factorial
+
+## Technologies / Tools Used
+
+- Python
+- Python `math` module
+- Python IDE
+- Console / Terminal
+- Git and GitHub
+
+## Requirements
+
+To run this project, you need:
+
+- Python 3.x
+- A Python IDE or terminal
+- Project source code
+
+## How to Run the Project
+
+### Step 1: Install Python
+
+Install Python 3.x on your computer.
+
+### Step 2: Open the Project
+
+Open the project folder in a Python-supported IDE such as:
+
+- VS Code
+- IDLE
+- PyCharm
+
+### Step 3: Run the Program
+
+Open the main Python file and click **Run**.
+
+The following menu will appear:
+
+```text
+========================================
+          SMART CALCULATOR
+========================================
+
+1. Basic Calculator
+2. Scientific Calculator
+3. Unit Converter
+4. Temperature Converter
+5. Exit
